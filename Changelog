@@ -1,0 +1,6 @@
+~ V1.0-stable
+• Initial stable release build written on rust (Not much feature was added but will enhance in the future)
+• Trigger tweaks every 5s on screen on, every 15s on screen off for more responsive experience
+• Optimizes vm.*, net.*, kernel.*, and fs.* parameters
+• Set kernel tweaks (Powersave, Balanced, Performance) with Adaptive Strategies based on user activity
+• For detailed information check readme on github
