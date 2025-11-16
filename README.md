@@ -1,4 +1,4 @@
-# LayaKernelTuner - Adaptive Kernel Parameter Auto-Tuner
+# Laya KernelTuner - Adaptive Kernel Parameter Auto-Tuner
 
 ## Overview
 LayaKernelTuner is an intelligent, zero-intrusion kernel parameter optimizer for 64-bit Android devices with Linux Kernel 4.19+. It automatically adapts system parameters based on user activity, screen state, and system load to maximize battery life while maintaining responsiveness.
@@ -44,7 +44,6 @@ Optimizes `vm.*`, `net.*`, `kernel.*`, and `fs.*` parameters:
 Install it on Kernel SU, Magisk, Sukisu Ultra, Or similar platform
 
 ### Method 2: ROM Integration
-Place binary in `/vendor/bin/hw/` for automatic system integration.
 
 ## Architecture
 
