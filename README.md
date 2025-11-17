@@ -34,7 +34,7 @@ Optimizes `vm.*`, `net.*`, `kernel.*`, and `fs.*` parameters:
 ## System Requirements
 
 - **Architecture:** 64-bit ARM (aarch64/arm64)
-- **Kernel Version:** Linux 4.19 or higher
+- **Kernel Version:** Linux 4.14 or higher
 - **Android Version:** Android 11+
 - **Permissions:** Root Access (KSU/Magisk,etc)
 
