@@ -1,3 +1,13 @@
+~ V2.0-stable
+• Massive compatibility update and added bunch of kernel support from 4.14-6.12 (AOSP Optimized Value)
+• [MLPO] Added Machine learning Profile optimization to intelligently learn user patterns and adjust kernel tweaks
+• [BCL] Added Battery Curve Learning Monitor to learn battery pattern, health, usage, activity to improve decision making for better battery preservation and performance
+• Optimize Profile selection logic to choose the best profile for current user activity
+• Memory pressure detection: Now single-pass through meminfo (vs dual-pass fallback)
+• I/O activity monitoring: ~10x faster on systems with 100+ block devices (common on some configurations)
+• Dropped unused variable & import
+• Multiple optimization on kernel values
+
 ~ V1.0-stable
 • Initial stable release build written on rust (Not much feature was added but will enhance in the future)
 • Trigger tweaks every 5s on screen on, every 15s on screen off for more responsive experience
