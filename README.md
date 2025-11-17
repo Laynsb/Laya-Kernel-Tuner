@@ -70,33 +70,6 @@ Screen OFF + Any Load → Idle Profile (maximum savings)
 5. Validate each parameter exists before writing
 6. Log detailed success/failure information
 
-## Profiles in Detail
-
-### Idle Profile (Battery Aggressive)
-- `vm.swappiness = 80` - Aggressive memory reclamation
-- `vm.dirty_ratio = 20` - Smaller write buffers, quicker writeback
-- `vm.laptop_mode = 5` - Extreme I/O batching
-- `net.ipv4.tcp_tw_reuse = 1` - Reuse TIME_WAIT connections
-- Optimized for minimal power draw when screen off
-
-### Balanced Profile (Default)
-- `vm.swappiness = 60` - Standard memory management
-- `vm.dirty_ratio = 30` - Moderate write buffering
-- `net.ipv4.tcp_keepalive_time = 300` - Responsive TCP
-- Balanced performance and battery life
-
-### Performance Profile (Responsive)
-- `vm.swappiness = 30` - Minimize GC latency
-- `vm.dirty_ratio = 40` - Larger write buffers, better throughput
-- `kernel.task_delayacct = 1` - Full accounting enabled
-- Maximized responsiveness
-
-### Gaming Profile (Low-Latency)
-- `vm.swappiness = 10` - Minimal swapping, prevent frame drops
-- `vm.dirty_ratio = 50` - Async writes, smooth gameplay
-- `kernel.sched_migration_cost_ns = 500000` - Minimize scheduling jitter
-- Optimized for consistent frame rates
-
 ## Safety Features
 
 ✅ **Parameter Validation** - Checks if each parameter exists before writing  
