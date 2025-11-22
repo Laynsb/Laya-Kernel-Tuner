@@ -1,4 +1,32 @@
-~ V2.0-stable
+----- V3.0-stable -----
+Added:
+• CPU frequency usage detection
+• Thermal state monitoring (0-100% scale)
+• Charging state detection
+• Network activity tracking
+• Hysteresis system (3-cycle consensus before profile switching)
+• 15 new kernel parameters to enhance experience
+
+Changed:
+• Profile selection: Binary thresholds & Weighted scoring system
+• Much more (i forgot)
+
+Removed:
+• Old threshold constants (replaced by weighted scoring)
+
+Improved:
+• Integer overflow protection (saturating arithmetic everywhere)
+• Division-by-zero guards (all 18 divisions protected)
+• Bounds validation (battery, RAM, thermal all clamped)
+• Profile stability (no more thrashing with hysteresis)
+• Thermal safety (emergency override at >75°C)
+• Memory protection (min_free_kbytes prevents deadlocks)
+• Gaming performance (512K memory maps, ultra-low latency)
+• Network performance (TCP Fast Open, 16MB buffers)
+• Error handling (all file ops safe, graceful fallbac
+ks)
+
+----- V2.0-stable -----
 • Massive compatibility update and added bunch of kernel support from 4.14-6.12 (AOSP Optimized Value)
 • [MLPO] Added Machine learning Profile optimization to intelligently learn user patterns and adjust kernel tweaks
 • [BCL] Added Battery Curve Learning Monitor to learn battery pattern, health, usage, activity to improve decision making for better battery preservation and performance
