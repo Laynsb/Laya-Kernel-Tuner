@@ -1,3 +1,24 @@
+----- V4.0-stable -----
+Added:
+(1) Periodic status logging every ~60 seconds
+(2) 30-second startup grace period to prevent stutter right after boot
+(3) Fallback logging to /dev/kmsg in addition to logcat
+
+Changed:
+(1) Rewrote entire profile selection with intelligent multi-factor scoring
+
+Fixed:
+(1) Minor issue on logging
+
+Improved:
+Detection functions:
+(1) Charging now checks battery status first (Charging/Discharging/Full) before USB/AC online, 
+(2) Thermal scans all 16 thermal zones and handles both millidegrees and degrees, 
+(3) Memory uses MemAvailable with fallback to Free+Buffers+Cached calculation.
+Profile Selection logic:
+(1) Decison making on every possible user behavior
+
+
 ----- V3.0-stable -----
 Added:
 • CPU frequency usage detection
