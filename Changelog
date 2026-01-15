@@ -1,3 +1,13 @@
+----- V5.0-stable -----
+• Fix and patch bunch of things
+• Refinement was made towards Machine Learning code
+• Improved Battery awareness
+• Fix up! Battery sampling monitor logic
+• Fix up! profile selection for idle mode
+• Fix up! battery charging detection minor issue
+• Improved hystresis history tracking
+• Etc, lazy to make changelog lmao
+
 ----- V4.0-stable -----
 Added:
 (1) Periodic status logging every ~60 seconds
