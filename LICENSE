@@ -1,52 +1,112 @@
 Laya Kernel-Tuner License
-Version 1.0
 
-Copyright (c) 2025 Laynsb
+Version 1.1
 
-This software is distributed in binary form only (the “Binary”). 
-By using, copying, embedding, or distributing this Binary, you agree 
-to the following terms:
+Copyright (c) 2026 Laynsb
+All rights reserved.
 
-1. License Grant:
-   You are granted a royalty-free, non-exclusive license to use, copy, 
-   embed, and distribute the Binary for personal, educational, or 
-   commercial purposes.
+---
 
-2. Attribution Requirement:
-   Any public or private redistribution, publication, or inclusion 
-   of this Binary must include clear and visible credit to the 
-   original developer:
-   
-   **"by Laynsb"**
-   
-   Attribution must be displayed in a reasonably prominent location 
-   (e.g., About page, documentation, or product credits).
+1. License Scope and Nature
 
-3. No Modification or Reverse Engineering:
-   You may not modify, decompile, disassemble, reverse engineer, 
-   or create derivative works from this Binary or attempt to 
-   circumvent any obfuscation or protection mechanisms.
+This software is not open-source.
 
-4. Warranty Disclaimer:
-   This Binary is provided “AS IS,” without any warranties, express 
-   or implied, including but not limited to merchantability, fitness 
-   for a particular purpose, or non-infringement.
+This license governs the use of the compiled, machine-readable form of the Laya Kernel-Tuner software (the “Binary”), including any binaries produced from it.
 
-5. Limitation of Liability:
-   Under no circumstances shall the author (Laynsb) be liable for any 
-   damages arising from the use or inability to use this Binary, 
-   including but not limited to lost profits, data loss, or other 
-   incidental or consequential damages, even if advised of the possibility.
+Source code is not licensed for use, modification, or redistribution under this agreement.
 
-6. Termination:
-   This license terminates automatically if you violate any of its terms. 
-   Upon termination, all use and distribution of the Binary must cease 
-   immediately.
+---
 
-7. Governing Law:
-   This License shall be governed by and construed in accordance with 
-   the laws of the jurisdiction of the author's residence, unless 
-   otherwise required by applicable law.
+2. License Grant
 
-By using this Binary, you acknowledge that you have read, understood, 
-and agreed to be bound by these terms.
+You are granted a non-exclusive, royalty-free, revocable license to:
+
+- Use the Binary for personal, educational, or commercial purposes
+- Copy and redistribute the unmodified Binary
+
+Subject to the conditions set forth in this License.
+
+---
+
+3. Attribution Requirement
+
+Any public or private redistribution, inclusion, or use of the Binary must include visible credit to the original author:
+
+«"by Laynsb"»
+
+Attribution must appear in a reasonably prominent location, such as:
+
+- An “About” page
+- Documentation
+- Product credits
+- Accompanying materials
+
+Hidden, obfuscated, or indirect attribution does not satisfy this requirement.
+
+---
+
+4. Restrictions
+
+You may not:
+
+- Modify the Binary
+- Decompile, disassemble, or reverse engineer the Binary
+- Create derivative works based on the Binary
+- Redistribute modified or repackaged versions
+- Attempt to bypass, disable, or circumvent any protection or obfuscation mechanisms
+
+Except where such restrictions are expressly prohibited by applicable law.
+
+---
+
+5. No Warranty
+
+The Binary is provided “AS IS”, without warranty of any kind, express or implied, including but not limited to:
+
+- Merchantability
+- Fitness for a particular purpose
+- Non-infringement
+
+Use of the Binary is entirely at your own risk.
+
+---
+
+6. Limitation of Liability
+
+To the maximum extent permitted by law, the author shall not be liable for any damages arising from the use or inability to use the Binary, including but not limited to:
+
+- Loss of data
+- Loss of profits
+- System failure
+- Business interruption
+- Incidental or consequential damages
+
+Even if advised of the possibility of such damages.
+
+---
+
+7. Termination
+
+This license terminates automatically if any of its terms are violated.
+
+Upon termination, you must immediately:
+
+- Cease all use of the Binary
+- Delete all copies in your possession
+- Discontinue all redistribution
+
+---
+
+8. Governing Law
+
+This License shall be governed by and construed in accordance with the laws of the author’s jurisdiction of residence, unless otherwise required by applicable law.
+
+---
+
+9. Acceptance
+
+By using, copying, or distributing this Binary, you acknowledge that you have read, understood, and agreed to be bound by the terms of this License.
+
+---
+
+End of License
