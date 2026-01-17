@@ -43,8 +43,6 @@ Optimizes `vm.*`, `net.*`, `kernel.*`, and `fs.*` parameters:
 ### Method 1: Root Access
 Install it on Kernel SU, Magisk, Sukisu Ultra, Or similar platform
 
-### Method 2: ROM Integration
-
 ## Architecture
 
 ### Profile Detection Logic
@@ -122,7 +120,7 @@ adb shell cat /proc/sys/vm/swappiness
 ### Kernel version issues
 ```bash
 # Check kernel version
-adb shell uname -r  # Must be 4.19+
+adb shell uname -r  # Must be 4.14+
 ```
 
 ## Contributing
