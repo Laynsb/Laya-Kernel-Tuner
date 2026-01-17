@@ -1,3 +1,9 @@
+----- V5.1-stable -----
+• Fix Minor performance overhead
+• Remove kmsg write
+• Remove unnecessary string allocations in hysteresis
+• Code optimization
+
 ----- V5.0-stable -----
 • Fix and patch bunch of things
 • Refinement was made towards Machine Learning code
