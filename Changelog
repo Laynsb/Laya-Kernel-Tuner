@@ -1,5 +1,6 @@
------ V5.1-stable -----
+----- V5.1.1-stable -----
 • Fix Minor performance overhead
+• Solved Multiple code warnings
 • Remove kmsg write
 • Remove unnecessary string allocations in hysteresis
 • Code optimization
