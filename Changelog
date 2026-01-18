@@ -1,3 +1,12 @@
+----- V6.0-stable -----
+• Fixed excessive scanning
+• Improve compatibility
+• Improve Automatic profile switching logic
+• Added universal screen state detection and fallback system
+• Added Read-before-write system
+• Added context awareness for battery logic
+• Code flaws fixes, optimization, etc
+
 ----- V5.1.1-stable -----
 • Fix Minor performance overhead
 • Solved Multiple code warnings
